@@ -55,6 +55,7 @@ def make_text(chains):
     return ' '.join(words)
 
 
+
 # Get the filenames from the user through a command line prompt, ex:
 # python markov.py green-eggs.txt shakespeare.txt
 filenames = sys.argv[1:]
